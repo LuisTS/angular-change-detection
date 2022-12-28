@@ -1,0 +1,5 @@
+<app-todo *ngFor="let todo of todos" [todo]="todo"></app-todo>
+
+<div><input type="text" (keyup)="changeText()"></div>
+
+<div><button (click)="changeArray()">Change array</button></div>

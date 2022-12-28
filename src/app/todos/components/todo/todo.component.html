@@ -1,0 +1,7 @@
+<div>
+  {{ todoProps.text }}
+</div>
+<div>Check render: {{checkRender()}}</div>
+<div>Filter {{filter$ | async}}</div>
+<div><button (click)="changeText()">Change text</button></div>
+<div><button (click)="changeFilter()">Change filter</button></div>
